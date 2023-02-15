@@ -24,6 +24,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
+    background: #ec6b6b;
 }
 
 .card{
@@ -59,6 +60,7 @@ body{
 
 .info h1{
     font-size: 2rem;
+    transition: all 0.75s ease-out;
 }
 
 .info h3{
@@ -71,6 +73,8 @@ body{
 .sizes{
     display: flex;
     justify-content: space-between;
+    transition: all 0.75s ease-out;
+
 }
 
 .sizes button{
@@ -91,6 +95,8 @@ button.active{
 
 .purchase{
     margin-top: 2rem;
+    transition: all 0.75s ease-out;
+
 }
 
 .purchase button{
