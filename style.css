@@ -13,7 +13,8 @@ body{
 
 
     /* all this back lines are for center all the content inthe middle of the screen*/ 
-    perspective: 50px;
+    /* perspective: 50px; */
+    perspective: 1000px;
 }
 
 
@@ -24,7 +25,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    background: #ec6b6b;
+    /* background: #ec6b6b; */
 }
 
 .card{
@@ -47,6 +48,7 @@ body{
 .product img{
     width:20rem;
     z-index:2;
+    transition: all 0.74 ease-out;
 }
 
 .circleBack{
@@ -68,6 +70,8 @@ body{
     padding: 2rem 0rem;
     color:#585858;
     font-weight: lighter;
+    transition: all 0.75s ease-out;
+
 }
 
 .sizes{
@@ -107,7 +111,7 @@ button.active{
     color:white;
     cursor:pointer;
     border-radius: 30px;
-    font-weight: boler;
+    font-weight: bolder;
 }
 
 
